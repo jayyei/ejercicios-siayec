@@ -1,24 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Ejercicio1} from './Components/Ejercicio1'
+import {Ejercicio1V1} from './Components/Ejercicio1V1'
+import {Ejercicio1V2} from './Components/Ejercicio1V2'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Ejercicio1
+        n={100}/> */}
+      {/* <Ejercicio1V1/> */}
+      <Ejercicio1V2/>
     </div>
   );
 }
